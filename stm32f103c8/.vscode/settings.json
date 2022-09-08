@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "*.json": "cpp",
+    "bsp_uart.h": "c"
+  }
+}

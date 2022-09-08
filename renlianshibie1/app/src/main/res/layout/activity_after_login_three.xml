@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AfterLoginThree">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="13"
+        >
+
+    <fragment
+        android:id="@+id/after_login_fragment_record"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.android.renlianshibie1.AfterLogin"
+        />
+
+    <fragment
+        android:id="@+id/after_login_fragment_person"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.android.renlianshibie1.AfterLoginSecond"
+        />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/after_login_button_record"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="record"
+            android:textSize="18sp"
+            android:gravity="center"
+            />
+
+        <Button
+            android:id="@+id/after_login_button_person"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="person"
+            android:textSize="18sp"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

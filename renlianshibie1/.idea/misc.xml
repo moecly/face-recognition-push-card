@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Moecly/study/study_Android/renlianshibie1/app/src/main/res/drawable/shape_life_search.xml" value="0.4015625" />
+        <entry key="..\:/Moecly/study/study_Android/renlianshibie1/app/src/main/res/layout/activity_admit_account.xml" value="0.2484375" />
+        <entry key="..\:/Moecly/study/study_Android/renlianshibie1/app/src/main/res/layout/activity_admit_face.xml" value="0.37681159420289856" />
+        <entry key="..\:/Moecly/study/study_Android/renlianshibie1/app/src/main/res/layout/activity_after_login.xml" value="0.2" />
+        <entry key="..\:/Moecly/study/study_Android/renlianshibie1/app/src/main/res/layout/activity_after_login_second.xml" value="0.3854166666666667" />
+        <entry key="..\:/Moecly/study/study_Android/renlianshibie1/app/src/main/res/layout/activity_main.xml" value="0.4198331788693234" />
+        <entry key="..\:/Moecly/study/study_Android/renlianshibie1/app/src/main/res/layout/admit_account.xml" value="0.2484375" />
+        <entry key="..\:/Moecly/study/study_Android/renlianshibie1/app/src/main/res/layout/admit_after_login_recyclerview_item.xml" value="0.2667572463768116" />
+        <entry key="..\:/Moecly/study/study_Android/renlianshibie1/app/src/main/res/layout/admitaccount.xml" value="0.28854166666666664" />
+        <entry key="..\:/Moecly/study/study_Android/renlianshibie1/app/src/main/res/layout/layout_popupwindow.xml" value="0.21770833333333334" />
+        <entry key="..\:/Moecly/study/study_Android/renlianshibie1/app/src/main/res/layout/popupwindow_item0.xml" value="0.3854166666666667" />
+        <entry key="..\:/Moecly/study/study_Android/renlianshibie1/app/src/main/res/layout/recycler_item.xml" value="0.3854166666666667" />
+        <entry key="..\:/Moecly/study/study_Android/renlianshibie1/app/src/main/res/layout/recyclerview.xml" value="0.21770833333333334" />
+        <entry key="..\:/Moecly/study/study_Android/renlianshibie1/app/src/main/res/layout/test.xml" value="0.3854166666666667" />
+        <entry key="..\:/Moecly/study/study_myProject/face_recognition_punch_card/renlianshibie1/app/src/main/res/layout/activity_admit_face.xml" value="0.3695652173913043" />
+        <entry key="..\:/Moecly/study/study_myProject/face_recognition_punch_card/renlianshibie1/app/src/main/res/layout/activity_after_login.xml" value="0.3759057971014493" />
+        <entry key="..\:/Moecly/study/study_myProject/face_recognition_punch_card/renlianshibie1/app/src/main/res/layout/activity_after_login_second.xml" value="0.3759057971014493" />
+        <entry key="..\:/Moecly/study/study_myProject/face_recognition_punch_card/renlianshibie1/app/src/main/res/layout/activity_after_login_three.xml" value="0.33" />
+        <entry key="..\:/Moecly/study/study_myProject/face_recognition_punch_card/renlianshibie1/app/src/main/res/layout/activity_main.xml" value="0.3609375" />
+        <entry key="..\:/Moecly/study/study_myProject/face_recognition_punch_card/renlianshibie1/app/src/main/res/layout/activity_retrieve_password.xml" value="0.3759057971014493" />
+        <entry key="..\:/Moecly/study/study_myProject/face_recognition_punch_card/renlianshibie1/app/src/main/res/layout/admit_after_login_recyclerview_item.xml" value="0.3609375" />
+        <entry key="..\:/Moecly/study/study_myProject/face_recognition_punch_card/renlianshibie1/app/src/main/res/layout/popupwindow_item0.xml" value="0.3609375" />
+        <entry key="..\:/Moecly/study/study_myProject/face_recognition_punch_card/renlianshibie1/app/src/main/res/layout/recycler_item.xml" value="0.3609375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

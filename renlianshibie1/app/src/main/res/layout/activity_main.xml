@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:src="@drawable/main_background" />
+
+    <LinearLayout
+        android:layout_weight="3"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        >
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_main"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="30dp"
+            app:cardCornerRadius="20dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                >
+
+                <EditText
+                    android:id="@+id/editText_phoneNumber_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="phone number"
+                    android:textSize="20sp"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:focusableInTouchMode="false"
+                    android:background="@color/white"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:inputType="numberSigned"
+                    />
+
+                <Button
+                    android:id="@+id/display_more_main"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:background="@drawable/xiala"
+                    android:layout_centerVertical="true"
+                    android:layout_alignRight="@+id/editText_phoneNumber_main"
+                    android:visibility="invisible"
+                    />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="30dp"
+            app:cardCornerRadius="20dp"
+            >
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                >
+<!--                android:inputType="numberPassword"-->
+<!--                android:focusable="true"-->
+
+                <EditText
+                    android:id="@+id/editText_password_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:focusableInTouchMode="false"
+                    android:background="@color/white"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:hint="password"
+                    android:textSize="20sp" />
+                <Button
+                    android:id="@+id/display_password_button"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:background="@drawable/display_password"
+                    android:layout_centerVertical="true"
+                    android:visibility="invisible"
+                    />
+
+                <Button
+                    android:id="@+id/clear_password_button"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignRight="@+id/editText_password_main"
+                    android:layout_centerVertical="true"
+                    android:layout_marginHorizontal="20dp"
+                    android:background="@drawable/chacha"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/button_send_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/done"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <CheckBox
+                android:id="@+id/save_password_checkbox"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:text="save password"
+                android:visibility="invisible"
+                />
+
+            <CheckBox
+                android:id="@+id/save_account_checkbox"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:text="save account"
+                android:visibility="visible"
+                />
+
+            <CheckBox
+                android:id="@+id/auto_login_checkbox"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:text="auto login"
+                android:visibility="invisible"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/admit_account_button"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textSize="10sp"
+            android:background="#00000000"
+            android:text="register account"
+
+            />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="30dp"
+            android:background="@color/black"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:id="@+id/retrieve_password_button"
+            android:layout_width="0dp"
+            android:background="#00000000"
+            android:layout_gravity="center"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="retrieve password"
+            android:textSize="10sp"
+            />
+
+    </LinearLayout>
+</LinearLayout>
